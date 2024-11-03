@@ -1,0 +1,6 @@
+@ClaimMangementAPIXunit_HostAddress = http://localhost:5123
+
+GET {{ClaimMangementAPIXunit_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
