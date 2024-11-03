@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "yOwKa42eDZlKHdqjoNgTyRWhiwp9PO232QefDxh63ug=",
+  "Hash": "VEoDs3Qga5f+9gt+w74OQiPdScNYEQ+WBFzdyI9xnp4=",
   "Source": "ClaimsManagementApi",
   "BasePath": "_content/ClaimsManagementApi",
   "Mode": "Default",
@@ -72,6 +72,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Uploads\\c06d9b41-5a76-4a20-bffa-a389b4d99b95_Ankur_Yadav_Resume.pdf"
+    },
+    {
+      "Identity": "C:\\Users\\yadav\\source\\repos\\ClaimsManagementApi\\ClaimsManagementApi\\wwwroot\\Uploads\\e237a6dd-edd0-44ba-b54b-b7530081d3e1_a resume (2).png",
+      "SourceId": "ClaimsManagementApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yadav\\source\\repos\\ClaimsManagementApi\\ClaimsManagementApi\\wwwroot\\",
+      "BasePath": "_content/ClaimsManagementApi",
+      "RelativePath": "Uploads/e237a6dd-edd0-44ba-b54b-b7530081d3e1_a resume (2).png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Uploads\\e237a6dd-edd0-44ba-b54b-b7530081d3e1_a resume (2).png"
     }
   ]
 }

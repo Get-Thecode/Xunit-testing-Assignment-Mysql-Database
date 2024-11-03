@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets\\Uploads\\c06d9b41-5a76-4a20-bffa-a389b4d99b95_Ankur_Yadav_Resume.pdf"
     },
     {
+      "Id": "C:\\Users\\yadav\\source\\repos\\ClaimsManagementApi\\ClaimsManagementApi\\wwwroot\\Uploads\\e237a6dd-edd0-44ba-b54b-b7530081d3e1_a resume (2).png",
+      "PackagePath": "staticwebassets\\Uploads\\e237a6dd-edd0-44ba-b54b-b7530081d3e1_a resume (2).png"
+    },
+    {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.ClaimsManagementApi.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },

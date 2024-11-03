@@ -8,12 +8,10 @@ namespace ClaimsManagementApi.Controllers
     public class ClaimsController : ControllerBase
     {
         private readonly IClaimService _claimService;
-        private readonly S3Service _s3Service;
 
-        public ClaimsController(IClaimService claimService, S3Service s3Service)
+        public ClaimsController(IClaimService claimService)
         {
             _claimService = claimService;
-            _s3Service = s3Service;
         }
 
         // POST /api/claims: Create a new claim
@@ -31,13 +29,19 @@ namespace ClaimsManagementApi.Controllers
             if (claim.DateOfClaim > DateTime.Now)
                 return BadRequest("DateOfClaim cannot be in the future.");
 
-            // Upload file to S3 if present
+            // Handle file upload if present
             if (file != null)
             {
-                using var stream = file.OpenReadStream();
-                var filePath = await _s3Service.UploadFileAsync(stream, file.FileName);
-                claim.FilePath = filePath;  // Save the S3 file URL in the database
+                var filePath = Path.Combine("wwwroot", "Uploads", $"{Guid.NewGuid()}_{file.FileName}");
+                Directory.CreateDirectory(Path.Combine("wwwroot", "Uploads")); // Ensure the directory exists
+
+                using var stream = new FileStream(filePath, FileMode.Create);
+                await file.CopyToAsync(stream);
+
+                // Save the relative path for easier reference
+                claim.FilePath = Path.Combine("Uploads", $"{Guid.NewGuid()}_{file.FileName}");
             }
+
 
 
             var createdClaim = await _claimService.CreateClaimAsync(claim);

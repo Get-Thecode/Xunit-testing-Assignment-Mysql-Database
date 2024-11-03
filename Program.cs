@@ -14,24 +14,24 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers();
 
 // Retrieve AWS settings from appsettings.json
-var awsOptions = builder.Configuration.GetSection("AWS");
+//var awsOptions = builder.Configuration.GetSection("AWS");
 
-// Use BasicAWSCredentials for AWS S3
-var credentials = new BasicAWSCredentials(
-    awsOptions["AccessKey"],
-    awsOptions["SecretKey"]
-);
+//// Use BasicAWSCredentials for AWS S3
+//var credentials = new BasicAWSCredentials(
+//    awsOptions["AccessKey"],
+//    awsOptions["SecretKey"]
+//);
 
-// Correctly retrieve the region; ensure it's not null or empty
-RegionEndpoint region = !string.IsNullOrEmpty(awsOptions["Region"])
-    ? RegionEndpoint.GetBySystemName(awsOptions["Region"])
-    : RegionEndpoint.EUNorth1; // Default region, adjust as necessary
+//// Correctly retrieve the region; ensure it's not null or empty
+//RegionEndpoint region = !string.IsNullOrEmpty(awsOptions["Region"])
+//    ? RegionEndpoint.GetBySystemName(awsOptions["Region"])
+//    : RegionEndpoint.EUNorth1; // Default region, adjust as necessary
 
-// Register AmazonS3 client with the specified credentials and region
-builder.Services.AddSingleton<IAmazonS3>(sp => new AmazonS3Client(credentials, region));
+//// Register AmazonS3 client with the specified credentials and region
+//builder.Services.AddSingleton<IAmazonS3>(sp => new AmazonS3Client(credentials, region));
 
-// Register S3Service for dependency injection
-builder.Services.AddSingleton<S3Service>();
+//// Register S3Service for dependency injection
+//builder.Services.AddSingleton<S3Service>();
 
 // Configure Entity Framework Core with MySQL
 builder.Services.AddDbContext<AppDbContext>(options =>
