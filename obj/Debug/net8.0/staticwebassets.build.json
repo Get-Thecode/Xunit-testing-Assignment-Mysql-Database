@@ -1,0 +1,77 @@
+{
+  "Version": 1,
+  "Hash": "yOwKa42eDZlKHdqjoNgTyRWhiwp9PO232QefDxh63ug=",
+  "Source": "ClaimsManagementApi",
+  "BasePath": "_content/ClaimsManagementApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "ClaimsManagementApi\\wwwroot",
+      "Source": "ClaimsManagementApi",
+      "ContentRoot": "C:\\Users\\yadav\\source\\repos\\ClaimsManagementApi\\ClaimsManagementApi\\wwwroot\\",
+      "BasePath": "_content/ClaimsManagementApi",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\yadav\\source\\repos\\ClaimsManagementApi\\ClaimsManagementApi\\wwwroot\\Uploads\\32f53478-594e-47a3-8f85-14830e2233a7_Ankur_Yadav_Resume.pdf",
+      "SourceId": "ClaimsManagementApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yadav\\source\\repos\\ClaimsManagementApi\\ClaimsManagementApi\\wwwroot\\",
+      "BasePath": "_content/ClaimsManagementApi",
+      "RelativePath": "Uploads/32f53478-594e-47a3-8f85-14830e2233a7_Ankur_Yadav_Resume.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Uploads\\32f53478-594e-47a3-8f85-14830e2233a7_Ankur_Yadav_Resume.pdf"
+    },
+    {
+      "Identity": "C:\\Users\\yadav\\source\\repos\\ClaimsManagementApi\\ClaimsManagementApi\\wwwroot\\Uploads\\b9ffa753-01b0-441b-99ae-bd4d816a0f38_Ankur_Yadav_Resume.pdf",
+      "SourceId": "ClaimsManagementApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yadav\\source\\repos\\ClaimsManagementApi\\ClaimsManagementApi\\wwwroot\\",
+      "BasePath": "_content/ClaimsManagementApi",
+      "RelativePath": "Uploads/b9ffa753-01b0-441b-99ae-bd4d816a0f38_Ankur_Yadav_Resume.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Uploads\\b9ffa753-01b0-441b-99ae-bd4d816a0f38_Ankur_Yadav_Resume.pdf"
+    },
+    {
+      "Identity": "C:\\Users\\yadav\\source\\repos\\ClaimsManagementApi\\ClaimsManagementApi\\wwwroot\\Uploads\\c06d9b41-5a76-4a20-bffa-a389b4d99b95_Ankur_Yadav_Resume.pdf",
+      "SourceId": "ClaimsManagementApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yadav\\source\\repos\\ClaimsManagementApi\\ClaimsManagementApi\\wwwroot\\",
+      "BasePath": "_content/ClaimsManagementApi",
+      "RelativePath": "Uploads/c06d9b41-5a76-4a20-bffa-a389b4d99b95_Ankur_Yadav_Resume.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Uploads\\c06d9b41-5a76-4a20-bffa-a389b4d99b95_Ankur_Yadav_Resume.pdf"
+    }
+  ]
+}

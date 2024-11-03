@@ -1,0 +1,33 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\yadav\\source\\repos\\ClaimsManagementApi\\ClaimsManagementApi\\wwwroot\\Uploads\\32f53478-594e-47a3-8f85-14830e2233a7_Ankur_Yadav_Resume.pdf",
+      "PackagePath": "staticwebassets\\Uploads\\32f53478-594e-47a3-8f85-14830e2233a7_Ankur_Yadav_Resume.pdf"
+    },
+    {
+      "Id": "C:\\Users\\yadav\\source\\repos\\ClaimsManagementApi\\ClaimsManagementApi\\wwwroot\\Uploads\\b9ffa753-01b0-441b-99ae-bd4d816a0f38_Ankur_Yadav_Resume.pdf",
+      "PackagePath": "staticwebassets\\Uploads\\b9ffa753-01b0-441b-99ae-bd4d816a0f38_Ankur_Yadav_Resume.pdf"
+    },
+    {
+      "Id": "C:\\Users\\yadav\\source\\repos\\ClaimsManagementApi\\ClaimsManagementApi\\wwwroot\\Uploads\\c06d9b41-5a76-4a20-bffa-a389b4d99b95_Ankur_Yadav_Resume.pdf",
+      "PackagePath": "staticwebassets\\Uploads\\c06d9b41-5a76-4a20-bffa-a389b4d99b95_Ankur_Yadav_Resume.pdf"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.ClaimsManagementApi.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.ClaimsManagementApi.props",
+      "PackagePath": "build\\ClaimsManagementApi.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.ClaimsManagementApi.props",
+      "PackagePath": "buildMultiTargeting\\ClaimsManagementApi.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.ClaimsManagementApi.props",
+      "PackagePath": "buildTransitive\\ClaimsManagementApi.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
